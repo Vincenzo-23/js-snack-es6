@@ -10,6 +10,7 @@ for(let i = 0; i < tavoloVip.length; i++){
     const membroVip = tavoloVip[i]
     console.log(membroVip)
 
+    //pusho all'interno del'array segnaposto i vari oggetti utilizzando come nome, la variabile membroVip
     segnaposto.push(
     {
         nomeOspite: `${membroVip}`,
