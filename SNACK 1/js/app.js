@@ -26,7 +26,7 @@ const tavoloVip = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo'
 
 //altra soluzione utilizzando il metodo map
 
-const segnaposti = tavoloVip.map((el, i,) => {
+const segnaposti = tavoloVip.map((el, i) => {
     const segnaposto = {
         nomeOspite: el,
         nomeTavolo: "Tavolo VIP",
