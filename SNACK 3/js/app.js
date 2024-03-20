@@ -39,4 +39,4 @@ const lightestBike = bikes.find((el) => {
 const {name, weight} = lightestBike
 
 //stampo in console il risultato usando il template literal
-console.log(`La bici ${name} che pesa ${weight} è la più leggera`)
+console.log(`La bici ${name} che pesa ${weight} kg è la più leggera`)
